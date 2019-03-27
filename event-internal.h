@@ -148,11 +148,13 @@ HT_HEAD(event_io_map, event_map_entry);
    defined, this structure is also used as event_io_map, which maps fds to a
    list of events.
 */
-/*ÓÉÓÚÔÚ¸÷¸öÏµÍ³ÉÏsignal¶¼ÊÇÕûÊýÀàÐÍ£¬ËùÒÔlibeventÓÃÒ»¸ö¶¯Ì¬Êý×é´æ´¢ËùÓÐµÄÐÅºÅÁ¿ÀàÐÍµÄÊÂ¼þ£¬²¢ÇÒÖ±½ÓÓÃsignal¶ÔÓ¦µÄÕûÐÎ×÷ÎªË÷Òý*/
-    struct event_signal_map {
+/*ç”±äºŽåœ¨å„ä¸ªç³»ç»Ÿä¸Šsignaléƒ½æ˜¯æ•´æ•°ç±»åž‹ï¼Œæ‰€ä»¥libeventç”¨ä¸€ä¸ªåŠ¨æ€æ•°ç»„å­˜å‚¨æ‰€æœ‰çš„ä¿¡å·é‡ç±»åž‹çš„äº‹ä»¶ï¼Œ
+ * å¹¶ä¸”ç›´æŽ¥ç”¨signalå¯¹åº”çš„æ•´å½¢ä½œä¸ºç´¢å¼•*/
+struct event_signal_map {
 	/* An array of evmap_io * or of evmap_signal *; empty entries are
 	 * set to NULL. */
-	/*entriesµÄÃ¿¸ö½Úµã¶¼ÊÇ¸öÒ»¸öevmap_signalÀàÐÍ£¬Ã¿¸öevmap_signal¶¼°üº¬Ò»¸öevent_listÁ´±í£¬ÕâÑùËùÓÐ¼àÊÓÏàÍ¬signalµÄÊÂ¼þ¶¼»á±»´æ´¢ÔÚÒ»¸öÁ´±íÖÐ*/
+	/*entriesçš„æ¯ä¸ªèŠ‚ç‚¹éƒ½æ˜¯ä¸ªä¸€ä¸ªevmap_signalç±»åž‹ï¼Œæ¯ä¸ªevmap_signal
+	 * éƒ½åŒ…å«ä¸€ä¸ªevent_listé“¾è¡¨ï¼Œè¿™æ ·æ‰€æœ‰ç›‘è§†ç›¸åŒsignalçš„äº‹ä»¶éƒ½ä¼šè¢«å­˜å‚¨åœ¨ä¸€ä¸ªé“¾è¡¨ä¸­*/
 	void **entries;
 	/* The number of entries available in entries */
 	int nentries;
@@ -210,17 +212,17 @@ struct event_once {
 struct event_base {
 	/** Function pointers and other data to describe this event_base's
 	 * backend. */
-	//I/O¸´ÓÃÀàÐÍ£¬select¡¢epoll...linuxÄ¬ÈÏÊÇepoll
+	//I/Oå¤ç”¨ç±»åž‹ï¼Œselectã€epoll...linuxé»˜è®¤æ˜¯epoll
 	const struct eventop *evsel;
 	/** Pointer to backend-specific data. */
-	//¾ßÌåµÄI/O¸´ÓÃ£¬ÊÇepollopÀàÐÍ£¬Í¨¹ýeventopÖÐµÄinitº¯Êý·µ»Ø£¬°üº¬ÁË¾ßÌåµÄI/O¸´ÓÃ¸÷ÖÖÐÅÏ¢
+	//å…·ä½“çš„I/Oå¤ç”¨ï¼Œæ˜¯epollopç±»åž‹ï¼Œé€šè¿‡eventopä¸­çš„initå‡½æ•°è¿”å›žï¼ŒåŒ…å«äº†å…·ä½“çš„I/Oå¤ç”¨å„ç§ä¿¡æ¯
 	void *evbase;
 
 	/** List of changes to tell backend about at next dispatch.  Only used
 	 * by the O(1) backends. */
-	struct event_changelist changelist;    //ÓÃÓÚ¼ÇÂ¼reactorÁ½´ÎÑ­»·Ö®¼äËùÓÐ×´Ì¬±ä¸üµÄfd
-	                                       //±ÈÈçÓÐÊ±³ÌÐò¶ÔÒ»¸öeventÖ´ÐÐÁËÌí¼ÓºÍÉ¾³ý²Ù×÷£¬µ«ÊÇÕâÁ½¸ö²Ù×÷¼ä¸ô·Ö³¤¶Ì
-	                                       //ÊÇÔÚÒ»¸öÑ­»·ÄÚ½øÐÐµÄ£¬ÄÇÃ´ÏÂ´ÎÑ­»·¾Í¿ÉÒÔºöÂÔÕâ¸öÊÂ¼þ
+	struct event_changelist changelist;    //ç”¨äºŽè®°å½•reactorä¸¤æ¬¡å¾ªçŽ¯ä¹‹é—´æ‰€æœ‰çŠ¶æ€å˜æ›´çš„fd
+	//æ¯”å¦‚æœ‰æ—¶ç¨‹åºå¯¹ä¸€ä¸ªeventæ‰§è¡Œäº†æ·»åŠ å’Œåˆ é™¤æ“ä½œï¼Œä½†æ˜¯è¿™ä¸¤ä¸ªæ“ä½œé—´éš”åˆ†é•¿çŸ­
+	//æ˜¯åœ¨ä¸€ä¸ªå¾ªçŽ¯å†…è¿›è¡Œçš„ï¼Œé‚£ä¹ˆä¸‹æ¬¡å¾ªçŽ¯å°±å¯ä»¥å¿½ç•¥è¿™ä¸ªäº‹ä»¶
 
 	/** Function pointers used to describe the backend that this event_base
 	 * uses for signals */
@@ -233,22 +235,22 @@ struct event_base {
 	/** Maximum number of virtual events active */
 	int virtual_event_count_max;
 	/** Number of total events added to this event_base */
-	//×Ü¹²µÄÊÂ¼þ¸öÊý
+	//æ€»å…±çš„äº‹ä»¶ä¸ªæ•°
 	int event_count;
 	/** Maximum number of total events added to this event_base */
 	int event_count_max;
 	/** Number of total events active in this event_base */
-	//×Ü¹²µÄ»î¶¯ÊÂ¼þ¸öÊý
+	//æ€»å…±çš„æ´»åŠ¨äº‹ä»¶ä¸ªæ•°
 	int event_count_active;
 	/** Maximum number of total events active in this event_base */
 	int event_count_active_max;
 
 	/** Set if we should terminate the loop once we're done processing
 	 * events. */
-	 //ÍË³ö
+	//é€€å‡º
 	int event_gotterm;
 	/** Set if we should terminate the loop immediately */
-	//Á¢¼´ÍË³ö
+	//ç«‹å³é€€å‡º
 	int event_break;
 	/** Set if we should start a new instance of the loop immediately. */
 	int event_continue;
@@ -271,13 +273,13 @@ struct event_base {
 	 * that have triggered, and whose callbacks need to be called).  Low
 	 * priority numbers are more important, and stall higher ones.
 	 */
-	//»î¶¯ÊÂ¼þ¶ÓÁÐ
+	//æ´»åŠ¨äº‹ä»¶é˜Ÿåˆ—
 	struct evcallback_list *activequeues;
 	/** The length of the activequeues array */
 	int nactivequeues;
 	/** A list of event_callbacks that should become active the next time
 	 * we process events, but not this time. */
-	//ËùÓÐÊÂ¼þ¶ÓÁÐ
+	//æ‰€æœ‰äº‹ä»¶é˜Ÿåˆ—
 	struct evcallback_list active_later_queue;
 
 	/* common timeout logic */
@@ -410,11 +412,11 @@ struct event_config {
 	((base)->event_count_active)
 
 int evsig_set_handler_(struct event_base *base, int evsignal,
-			  void (*fn)(int));
+					   void (*fn)(int));
 int evsig_restore_handler_(struct event_base *base, int evsignal);
 
 int event_add_nolock_(struct event *ev,
-    const struct timeval *tv, int tv_is_absolute);
+					  const struct timeval *tv, int tv_is_absolute);
 /** Argument for event_del_nolock_. Tells event_del not to block on the event
  * if it's running in another thread. */
 #define EVENT_DEL_NOBLOCK 0
@@ -436,7 +438,7 @@ void event_active_nolock_(struct event *ev, int res, short count);
 int event_callback_activate_(struct event_base *, struct event_callback *);
 int event_callback_activate_nolock_(struct event_base *, struct event_callback *);
 int event_callback_cancel_(struct event_base *base,
-    struct event_callback *evcb);
+						   struct event_callback *evcb);
 
 void event_callback_finalize_nolock_(struct event_base *base, unsigned flags, struct event_callback *evcb, void (*cb)(struct event_callback *, void *));
 void event_callback_finalize_(struct event_base *base, unsigned flags, struct event_callback *evcb, void (*cb)(struct event_callback *, void *));
@@ -446,11 +448,11 @@ int event_callback_finalize_many_(struct event_base *base, int n_cbs, struct eve
 void event_active_later_(struct event *ev, int res);
 void event_active_later_nolock_(struct event *ev, int res);
 int event_callback_activate_later_nolock_(struct event_base *base,
-    struct event_callback *evcb);
+										  struct event_callback *evcb);
 int event_callback_cancel_nolock_(struct event_base *base,
-    struct event_callback *evcb, int even_if_finalizing);
+								  struct event_callback *evcb, int even_if_finalizing);
 void event_callback_init_(struct event_base *base,
-    struct event_callback *cb);
+						  struct event_callback *cb);
 
 /* FIXME document. */
 void event_base_add_virtual_(struct event_base *base);
@@ -475,7 +477,7 @@ void event_base_assert_ok_nolock_(struct event_base *base);
  * Requires that 'base' be locked.
  */
 int event_base_foreach_event_nolock_(struct event_base *base,
-    event_base_foreach_event_cb cb, void *arg);
+									 event_base_foreach_event_cb cb, void *arg);
 
 /* Cleanup function to reset debug mode during shutdown.
  *

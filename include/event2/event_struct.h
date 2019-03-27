@@ -110,7 +110,7 @@ struct event_callback {
 	ev_uint8_t evcb_pri;	/* smaller numbers are higher priority */
 	ev_uint8_t evcb_closure;
 	/* allows us to adopt for different types of events */
-        union {
+	union {
 		void (*evcb_callback)(evutil_socket_t, short, void *);
 		void (*evcb_selfcb)(struct event_callback *, void *);
 		void (*evcb_evfinalize)(struct event *, void *);
@@ -136,7 +136,7 @@ struct event {
 		/* used for io events */
 		struct {
 			LIST_ENTRY (event) ev_io_next;
-			struct timeval ev_timeout; /* ÉèÖÃµÄ³¬Ê±Ê±¼ä±ÈÈç5Ãë */
+			struct timeval ev_timeout; /* è®¾ç½®çš„è¶…æ—¶æ—¶é—´æ¯”å¦‚5ç§’ */
 		} ev_io;
 
 		/* used by signal events */
@@ -150,7 +150,7 @@ struct event {
 
 	short ev_events;
 	short ev_res;		/* result passed to event callback */
-	struct timeval ev_timeout; /* ´æ´¢µ±Ç°Ê±¼ä+ÉèÖÃµÄ³¬Ê±Ê±¼ä±ÈÈç5Ãë */
+	struct timeval ev_timeout; /* å­˜å‚¨å½“å‰æ—¶é—´+è®¾ç½®çš„è¶…æ—¶æ—¶é—´æ¯”å¦‚5ç§’ */
 };
 
 TAILQ_HEAD (event_list, event);
@@ -163,7 +163,7 @@ TAILQ_HEAD (event_list, event);
 #undef TAILQ_HEAD
 #endif
 
-LIST_HEAD (event_dlist, event); 
+LIST_HEAD (event_dlist, event);
 
 #ifdef EVENT_DEFINED_LISTENTRY_
 #undef LIST_ENTRY

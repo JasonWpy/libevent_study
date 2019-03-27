@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable
+CMAKE_SOURCE_DIR = /root/CLionProjects/libevent_study
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug
+CMAKE_BINARY_DIR = /root/CLionProjects/libevent_study/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/libevent_2_1_8_stable.dir/depend.make
@@ -59,1017 +59,1017 @@ include CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/dns-example.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/sample/dns-example.c.o: ../sample/dns-example.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/dns-example.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/dns-example.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/dns-example.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/dns-example.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/dns-example.c.o   -c /root/CLionProjects/libevent_study/sample/dns-example.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/dns-example.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/sample/dns-example.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/dns-example.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/dns-example.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/sample/dns-example.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/dns-example.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/dns-example.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/sample/dns-example.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/dns-example.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/dns-example.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/sample/dns-example.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/dns-example.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/event-read-fifo.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/sample/event-read-fifo.c.o: ../sample/event-read-fifo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/event-read-fifo.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/event-read-fifo.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/event-read-fifo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/event-read-fifo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/event-read-fifo.c.o   -c /root/CLionProjects/libevent_study/sample/event-read-fifo.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/event-read-fifo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/sample/event-read-fifo.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/event-read-fifo.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/event-read-fifo.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/sample/event-read-fifo.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/event-read-fifo.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/event-read-fifo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/sample/event-read-fifo.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/event-read-fifo.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/event-read-fifo.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/sample/event-read-fifo.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/event-read-fifo.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/hello-world.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/sample/hello-world.c.o: ../sample/hello-world.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/hello-world.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/hello-world.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/hello-world.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/hello-world.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/hello-world.c.o   -c /root/CLionProjects/libevent_study/sample/hello-world.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/hello-world.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/sample/hello-world.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/hello-world.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/hello-world.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/sample/hello-world.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/hello-world.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/hello-world.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/sample/hello-world.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/hello-world.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/hello-world.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/sample/hello-world.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/hello-world.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/hostcheck.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/sample/hostcheck.c.o: ../sample/hostcheck.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/hostcheck.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/hostcheck.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/hostcheck.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/hostcheck.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/hostcheck.c.o   -c /root/CLionProjects/libevent_study/sample/hostcheck.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/hostcheck.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/sample/hostcheck.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/hostcheck.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/hostcheck.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/sample/hostcheck.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/hostcheck.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/hostcheck.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/sample/hostcheck.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/hostcheck.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/hostcheck.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/sample/hostcheck.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/hostcheck.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/http-connect.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/sample/http-connect.c.o: ../sample/http-connect.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/http-connect.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/http-connect.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/http-connect.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/http-connect.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/http-connect.c.o   -c /root/CLionProjects/libevent_study/sample/http-connect.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/http-connect.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/sample/http-connect.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/http-connect.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/http-connect.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/sample/http-connect.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/http-connect.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/http-connect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/sample/http-connect.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/http-connect.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/http-connect.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/sample/http-connect.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/http-connect.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/http-server.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/sample/http-server.c.o: ../sample/http-server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/http-server.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/http-server.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/http-server.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/http-server.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/http-server.c.o   -c /root/CLionProjects/libevent_study/sample/http-server.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/http-server.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/sample/http-server.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/http-server.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/http-server.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/sample/http-server.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/http-server.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/http-server.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/sample/http-server.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/http-server.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/http-server.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/sample/http-server.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/http-server.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/https-client.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/sample/https-client.c.o: ../sample/https-client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/https-client.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/https-client.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/https-client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/https-client.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/https-client.c.o   -c /root/CLionProjects/libevent_study/sample/https-client.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/https-client.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/sample/https-client.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/https-client.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/https-client.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/sample/https-client.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/https-client.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/https-client.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/sample/https-client.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/https-client.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/https-client.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/sample/https-client.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/https-client.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/le-proxy.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/sample/le-proxy.c.o: ../sample/le-proxy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/le-proxy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/le-proxy.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/le-proxy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/le-proxy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/le-proxy.c.o   -c /root/CLionProjects/libevent_study/sample/le-proxy.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/le-proxy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/sample/le-proxy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/le-proxy.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/le-proxy.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/sample/le-proxy.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/le-proxy.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/le-proxy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/sample/le-proxy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/le-proxy.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/le-proxy.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/sample/le-proxy.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/le-proxy.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/openssl_hostname_validation.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/sample/openssl_hostname_validation.c.o: ../sample/openssl_hostname_validation.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/openssl_hostname_validation.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/openssl_hostname_validation.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/openssl_hostname_validation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/openssl_hostname_validation.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/openssl_hostname_validation.c.o   -c /root/CLionProjects/libevent_study/sample/openssl_hostname_validation.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/openssl_hostname_validation.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/sample/openssl_hostname_validation.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/openssl_hostname_validation.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/openssl_hostname_validation.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/sample/openssl_hostname_validation.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/openssl_hostname_validation.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/openssl_hostname_validation.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/sample/openssl_hostname_validation.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/openssl_hostname_validation.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/openssl_hostname_validation.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/sample/openssl_hostname_validation.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/openssl_hostname_validation.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/signal-test.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/sample/signal-test.c.o: ../sample/signal-test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/signal-test.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/signal-test.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/signal-test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/signal-test.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/signal-test.c.o   -c /root/CLionProjects/libevent_study/sample/signal-test.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/signal-test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/sample/signal-test.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/signal-test.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/signal-test.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/sample/signal-test.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/signal-test.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/signal-test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/sample/signal-test.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/signal-test.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/signal-test.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/sample/signal-test.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/signal-test.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/time-test.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/sample/time-test.c.o: ../sample/time-test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/time-test.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/time-test.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/time-test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/sample/time-test.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/sample/time-test.c.o   -c /root/CLionProjects/libevent_study/sample/time-test.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/time-test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/sample/time-test.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/time-test.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/time-test.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/sample/time-test.c > CMakeFiles/libevent_2_1_8_stable.dir/sample/time-test.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/sample/time-test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/sample/time-test.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/sample/time-test.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/time-test.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/sample/time-test.c -o CMakeFiles/libevent_2_1_8_stable.dir/sample/time-test.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/bench.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/bench.c.o: ../test/bench.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/bench.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/bench.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/bench.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/bench.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/bench.c.o   -c /root/CLionProjects/libevent_study/test/bench.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/bench.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/bench.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/bench.c > CMakeFiles/libevent_2_1_8_stable.dir/test/bench.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/bench.c > CMakeFiles/libevent_2_1_8_stable.dir/test/bench.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/bench.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/bench.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/bench.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/bench.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/bench.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/bench.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/bench_cascade.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/bench_cascade.c.o: ../test/bench_cascade.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/bench_cascade.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/bench_cascade.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/bench_cascade.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/bench_cascade.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/bench_cascade.c.o   -c /root/CLionProjects/libevent_study/test/bench_cascade.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/bench_cascade.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/bench_cascade.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/bench_cascade.c > CMakeFiles/libevent_2_1_8_stable.dir/test/bench_cascade.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/bench_cascade.c > CMakeFiles/libevent_2_1_8_stable.dir/test/bench_cascade.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/bench_cascade.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/bench_cascade.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/bench_cascade.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/bench_cascade.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/bench_cascade.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/bench_cascade.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/bench_http.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/bench_http.c.o: ../test/bench_http.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/bench_http.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/bench_http.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/bench_http.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/bench_http.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/bench_http.c.o   -c /root/CLionProjects/libevent_study/test/bench_http.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/bench_http.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/bench_http.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/bench_http.c > CMakeFiles/libevent_2_1_8_stable.dir/test/bench_http.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/bench_http.c > CMakeFiles/libevent_2_1_8_stable.dir/test/bench_http.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/bench_http.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/bench_http.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/bench_http.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/bench_http.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/bench_http.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/bench_http.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/bench_httpclient.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/bench_httpclient.c.o: ../test/bench_httpclient.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/bench_httpclient.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/bench_httpclient.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/bench_httpclient.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/bench_httpclient.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/bench_httpclient.c.o   -c /root/CLionProjects/libevent_study/test/bench_httpclient.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/bench_httpclient.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/bench_httpclient.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/bench_httpclient.c > CMakeFiles/libevent_2_1_8_stable.dir/test/bench_httpclient.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/bench_httpclient.c > CMakeFiles/libevent_2_1_8_stable.dir/test/bench_httpclient.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/bench_httpclient.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/bench_httpclient.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/bench_httpclient.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/bench_httpclient.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/bench_httpclient.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/bench_httpclient.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress.c.o: ../test/regress.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress.c.o   -c /root/CLionProjects/libevent_study/test/regress.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/regress.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/regress.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/regress.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/regress.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress.gen.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress.gen.c.o: ../test/regress.gen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress.gen.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress.gen.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress.gen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress.gen.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress.gen.c.o   -c /root/CLionProjects/libevent_study/test/regress.gen.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress.gen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/regress.gen.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress.gen.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress.gen.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/regress.gen.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress.gen.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress.gen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/regress.gen.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress.gen.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress.gen.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/regress.gen.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress.gen.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_buffer.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_buffer.c.o: ../test/regress_buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_buffer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_buffer.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_buffer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_buffer.c.o   -c /root/CLionProjects/libevent_study/test/regress_buffer.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/regress_buffer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_buffer.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_buffer.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/regress_buffer.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_buffer.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/regress_buffer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_buffer.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_buffer.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/regress_buffer.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_buffer.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_bufferevent.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_bufferevent.c.o: ../test/regress_bufferevent.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_bufferevent.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_bufferevent.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_bufferevent.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_bufferevent.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_bufferevent.c.o   -c /root/CLionProjects/libevent_study/test/regress_bufferevent.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_bufferevent.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/regress_bufferevent.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_bufferevent.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_bufferevent.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/regress_bufferevent.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_bufferevent.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_bufferevent.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/regress_bufferevent.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_bufferevent.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_bufferevent.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/regress_bufferevent.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_bufferevent.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_dns.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_dns.c.o: ../test/regress_dns.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_dns.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_dns.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_dns.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_dns.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_dns.c.o   -c /root/CLionProjects/libevent_study/test/regress_dns.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_dns.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/regress_dns.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_dns.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_dns.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/regress_dns.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_dns.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_dns.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/regress_dns.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_dns.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_dns.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/regress_dns.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_dns.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_et.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_et.c.o: ../test/regress_et.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_et.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_et.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_et.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_et.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_et.c.o   -c /root/CLionProjects/libevent_study/test/regress_et.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_et.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/regress_et.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_et.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_et.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/regress_et.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_et.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_et.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/regress_et.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_et.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_et.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/regress_et.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_et.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_finalize.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_finalize.c.o: ../test/regress_finalize.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_finalize.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_finalize.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_finalize.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_finalize.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_finalize.c.o   -c /root/CLionProjects/libevent_study/test/regress_finalize.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_finalize.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/regress_finalize.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_finalize.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_finalize.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/regress_finalize.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_finalize.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_finalize.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/regress_finalize.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_finalize.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_finalize.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/regress_finalize.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_finalize.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_http.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_http.c.o: ../test/regress_http.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_http.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_http.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_http.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_http.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_http.c.o   -c /root/CLionProjects/libevent_study/test/regress_http.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_http.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/regress_http.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_http.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_http.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/regress_http.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_http.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_http.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/regress_http.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_http.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_http.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/regress_http.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_http.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_iocp.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_iocp.c.o: ../test/regress_iocp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_iocp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_iocp.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_iocp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_iocp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_iocp.c.o   -c /root/CLionProjects/libevent_study/test/regress_iocp.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_iocp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/regress_iocp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_iocp.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_iocp.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/regress_iocp.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_iocp.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_iocp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/regress_iocp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_iocp.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_iocp.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/regress_iocp.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_iocp.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_listener.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_listener.c.o: ../test/regress_listener.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_listener.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_listener.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_listener.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_listener.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_listener.c.o   -c /root/CLionProjects/libevent_study/test/regress_listener.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_listener.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/regress_listener.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_listener.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_listener.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/regress_listener.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_listener.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_listener.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/regress_listener.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_listener.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_listener.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/regress_listener.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_listener.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_main.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_main.c.o: ../test/regress_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_main.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_main.c.o   -c /root/CLionProjects/libevent_study/test/regress_main.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/regress_main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_main.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/regress_main.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_main.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/regress_main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_main.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/regress_main.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_main.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_minheap.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_minheap.c.o: ../test/regress_minheap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_minheap.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_minheap.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_minheap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_minheap.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_minheap.c.o   -c /root/CLionProjects/libevent_study/test/regress_minheap.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_minheap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/regress_minheap.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_minheap.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_minheap.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/regress_minheap.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_minheap.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_minheap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/regress_minheap.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_minheap.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_minheap.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/regress_minheap.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_minheap.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_rpc.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_rpc.c.o: ../test/regress_rpc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_rpc.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_rpc.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_rpc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_rpc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_rpc.c.o   -c /root/CLionProjects/libevent_study/test/regress_rpc.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_rpc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/regress_rpc.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_rpc.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_rpc.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/regress_rpc.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_rpc.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_rpc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/regress_rpc.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_rpc.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_rpc.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/regress_rpc.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_rpc.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_ssl.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_ssl.c.o: ../test/regress_ssl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_ssl.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_ssl.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_ssl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_ssl.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_ssl.c.o   -c /root/CLionProjects/libevent_study/test/regress_ssl.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_ssl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/regress_ssl.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_ssl.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_ssl.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/regress_ssl.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_ssl.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_ssl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/regress_ssl.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_ssl.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_ssl.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/regress_ssl.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_ssl.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_testutils.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_testutils.c.o: ../test/regress_testutils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_testutils.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_testutils.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_testutils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_testutils.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_testutils.c.o   -c /root/CLionProjects/libevent_study/test/regress_testutils.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_testutils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/regress_testutils.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_testutils.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_testutils.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/regress_testutils.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_testutils.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_testutils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/regress_testutils.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_testutils.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_testutils.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/regress_testutils.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_testutils.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_thread.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_thread.c.o: ../test/regress_thread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_thread.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_thread.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_thread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_thread.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_thread.c.o   -c /root/CLionProjects/libevent_study/test/regress_thread.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_thread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/regress_thread.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_thread.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_thread.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/regress_thread.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_thread.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_thread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/regress_thread.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_thread.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_thread.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/regress_thread.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_thread.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_util.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_util.c.o: ../test/regress_util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_util.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_util.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_util.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_util.c.o   -c /root/CLionProjects/libevent_study/test/regress_util.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/regress_util.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_util.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_util.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/regress_util.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_util.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/regress_util.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_util.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_util.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/regress_util.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_util.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_zlib.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_zlib.c.o: ../test/regress_zlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_zlib.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_zlib.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_zlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/regress_zlib.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_zlib.c.o   -c /root/CLionProjects/libevent_study/test/regress_zlib.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_zlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/regress_zlib.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_zlib.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_zlib.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/regress_zlib.c > CMakeFiles/libevent_2_1_8_stable.dir/test/regress_zlib.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/regress_zlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/regress_zlib.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/regress_zlib.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_zlib.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/regress_zlib.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/regress_zlib.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-changelist.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-changelist.c.o: ../test/test-changelist.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/test-changelist.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-changelist.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-changelist.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/test-changelist.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-changelist.c.o   -c /root/CLionProjects/libevent_study/test/test-changelist.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-changelist.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/test-changelist.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-changelist.c > CMakeFiles/libevent_2_1_8_stable.dir/test/test-changelist.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/test-changelist.c > CMakeFiles/libevent_2_1_8_stable.dir/test/test-changelist.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-changelist.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/test-changelist.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-changelist.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-changelist.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/test-changelist.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-changelist.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-closed.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-closed.c.o: ../test/test-closed.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/test-closed.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-closed.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-closed.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/test-closed.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-closed.c.o   -c /root/CLionProjects/libevent_study/test/test-closed.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-closed.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/test-closed.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-closed.c > CMakeFiles/libevent_2_1_8_stable.dir/test/test-closed.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/test-closed.c > CMakeFiles/libevent_2_1_8_stable.dir/test/test-closed.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-closed.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/test-closed.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-closed.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-closed.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/test-closed.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-closed.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-dumpevents.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-dumpevents.c.o: ../test/test-dumpevents.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/test-dumpevents.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-dumpevents.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-dumpevents.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/test-dumpevents.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-dumpevents.c.o   -c /root/CLionProjects/libevent_study/test/test-dumpevents.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-dumpevents.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/test-dumpevents.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-dumpevents.c > CMakeFiles/libevent_2_1_8_stable.dir/test/test-dumpevents.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/test-dumpevents.c > CMakeFiles/libevent_2_1_8_stable.dir/test/test-dumpevents.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-dumpevents.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/test-dumpevents.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-dumpevents.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-dumpevents.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/test-dumpevents.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-dumpevents.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-eof.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-eof.c.o: ../test/test-eof.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/test-eof.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-eof.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-eof.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/test-eof.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-eof.c.o   -c /root/CLionProjects/libevent_study/test/test-eof.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-eof.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/test-eof.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-eof.c > CMakeFiles/libevent_2_1_8_stable.dir/test/test-eof.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/test-eof.c > CMakeFiles/libevent_2_1_8_stable.dir/test/test-eof.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-eof.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/test-eof.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-eof.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-eof.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/test-eof.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-eof.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-fdleak.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-fdleak.c.o: ../test/test-fdleak.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/test-fdleak.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-fdleak.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-fdleak.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/test-fdleak.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-fdleak.c.o   -c /root/CLionProjects/libevent_study/test/test-fdleak.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-fdleak.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/test-fdleak.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-fdleak.c > CMakeFiles/libevent_2_1_8_stable.dir/test/test-fdleak.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/test-fdleak.c > CMakeFiles/libevent_2_1_8_stable.dir/test/test-fdleak.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-fdleak.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/test-fdleak.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-fdleak.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-fdleak.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/test-fdleak.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-fdleak.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-init.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-init.c.o: ../test/test-init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/test-init.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-init.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/test-init.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-init.c.o   -c /root/CLionProjects/libevent_study/test/test-init.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/test-init.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-init.c > CMakeFiles/libevent_2_1_8_stable.dir/test/test-init.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/test-init.c > CMakeFiles/libevent_2_1_8_stable.dir/test/test-init.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/test-init.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-init.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-init.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/test-init.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-init.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-ratelim.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-ratelim.c.o: ../test/test-ratelim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/test-ratelim.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-ratelim.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-ratelim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/test-ratelim.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-ratelim.c.o   -c /root/CLionProjects/libevent_study/test/test-ratelim.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-ratelim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/test-ratelim.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-ratelim.c > CMakeFiles/libevent_2_1_8_stable.dir/test/test-ratelim.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/test-ratelim.c > CMakeFiles/libevent_2_1_8_stable.dir/test/test-ratelim.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-ratelim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/test-ratelim.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-ratelim.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-ratelim.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/test-ratelim.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-ratelim.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-time.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-time.c.o: ../test/test-time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/test-time.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-time.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/test-time.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-time.c.o   -c /root/CLionProjects/libevent_study/test/test-time.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/test-time.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-time.c > CMakeFiles/libevent_2_1_8_stable.dir/test/test-time.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/test-time.c > CMakeFiles/libevent_2_1_8_stable.dir/test/test-time.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/test-time.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-time.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-time.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/test-time.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-time.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-weof.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-weof.c.o: ../test/test-weof.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/test-weof.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-weof.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-weof.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/test-weof.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-weof.c.o   -c /root/CLionProjects/libevent_study/test/test-weof.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-weof.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/test-weof.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-weof.c > CMakeFiles/libevent_2_1_8_stable.dir/test/test-weof.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/test-weof.c > CMakeFiles/libevent_2_1_8_stable.dir/test/test-weof.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/test-weof.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/test-weof.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/test-weof.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-weof.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/test-weof.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/test-weof.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/tinytest.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/test/tinytest.c.o: ../test/tinytest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/tinytest.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/tinytest.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/tinytest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/test/tinytest.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/test/tinytest.c.o   -c /root/CLionProjects/libevent_study/test/tinytest.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/tinytest.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/test/tinytest.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/tinytest.c > CMakeFiles/libevent_2_1_8_stable.dir/test/tinytest.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/test/tinytest.c > CMakeFiles/libevent_2_1_8_stable.dir/test/tinytest.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/test/tinytest.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/test/tinytest.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/test/tinytest.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/tinytest.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/test/tinytest.c -o CMakeFiles/libevent_2_1_8_stable.dir/test/tinytest.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/arc4random.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/arc4random.c.o: ../arc4random.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/arc4random.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/arc4random.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/arc4random.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/arc4random.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/arc4random.c.o   -c /root/CLionProjects/libevent_study/arc4random.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/arc4random.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/arc4random.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/arc4random.c > CMakeFiles/libevent_2_1_8_stable.dir/arc4random.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/arc4random.c > CMakeFiles/libevent_2_1_8_stable.dir/arc4random.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/arc4random.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/arc4random.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/arc4random.c -o CMakeFiles/libevent_2_1_8_stable.dir/arc4random.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/arc4random.c -o CMakeFiles/libevent_2_1_8_stable.dir/arc4random.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/buffer.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/buffer.c.o: ../buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/buffer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/buffer.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/buffer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/buffer.c.o   -c /root/CLionProjects/libevent_study/buffer.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/buffer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/buffer.c > CMakeFiles/libevent_2_1_8_stable.dir/buffer.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/buffer.c > CMakeFiles/libevent_2_1_8_stable.dir/buffer.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/buffer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/buffer.c -o CMakeFiles/libevent_2_1_8_stable.dir/buffer.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/buffer.c -o CMakeFiles/libevent_2_1_8_stable.dir/buffer.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/buffer_iocp.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/buffer_iocp.c.o: ../buffer_iocp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/buffer_iocp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/buffer_iocp.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/buffer_iocp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/buffer_iocp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/buffer_iocp.c.o   -c /root/CLionProjects/libevent_study/buffer_iocp.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/buffer_iocp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/buffer_iocp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/buffer_iocp.c > CMakeFiles/libevent_2_1_8_stable.dir/buffer_iocp.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/buffer_iocp.c > CMakeFiles/libevent_2_1_8_stable.dir/buffer_iocp.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/buffer_iocp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/buffer_iocp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/buffer_iocp.c -o CMakeFiles/libevent_2_1_8_stable.dir/buffer_iocp.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/buffer_iocp.c -o CMakeFiles/libevent_2_1_8_stable.dir/buffer_iocp.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent.c.o: ../bufferevent.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/bufferevent.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/bufferevent.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent.c.o   -c /root/CLionProjects/libevent_study/bufferevent.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/bufferevent.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent.c > CMakeFiles/libevent_2_1_8_stable.dir/bufferevent.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/bufferevent.c > CMakeFiles/libevent_2_1_8_stable.dir/bufferevent.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/bufferevent.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent.c -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/bufferevent.c -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_async.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_async.c.o: ../bufferevent_async.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_async.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_async.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent_async.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_async.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_async.c.o   -c /root/CLionProjects/libevent_study/bufferevent_async.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_async.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_async.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent_async.c > CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_async.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/bufferevent_async.c > CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_async.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_async.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_async.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent_async.c -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_async.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/bufferevent_async.c -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_async.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_filter.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_filter.c.o: ../bufferevent_filter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_filter.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_filter.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent_filter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_filter.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_filter.c.o   -c /root/CLionProjects/libevent_study/bufferevent_filter.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_filter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_filter.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent_filter.c > CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_filter.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/bufferevent_filter.c > CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_filter.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_filter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_filter.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent_filter.c -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_filter.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/bufferevent_filter.c -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_filter.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_openssl.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_openssl.c.o: ../bufferevent_openssl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_openssl.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_openssl.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent_openssl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_openssl.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_openssl.c.o   -c /root/CLionProjects/libevent_study/bufferevent_openssl.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_openssl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_openssl.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent_openssl.c > CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_openssl.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/bufferevent_openssl.c > CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_openssl.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_openssl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_openssl.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent_openssl.c -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_openssl.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/bufferevent_openssl.c -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_openssl.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_pair.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_pair.c.o: ../bufferevent_pair.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_pair.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_pair.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent_pair.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_pair.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_pair.c.o   -c /root/CLionProjects/libevent_study/bufferevent_pair.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_pair.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_pair.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent_pair.c > CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_pair.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/bufferevent_pair.c > CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_pair.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_pair.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_pair.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent_pair.c -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_pair.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/bufferevent_pair.c -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_pair.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_ratelim.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_ratelim.c.o: ../bufferevent_ratelim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_ratelim.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_ratelim.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent_ratelim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_ratelim.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_ratelim.c.o   -c /root/CLionProjects/libevent_study/bufferevent_ratelim.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_ratelim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_ratelim.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent_ratelim.c > CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_ratelim.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/bufferevent_ratelim.c > CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_ratelim.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_ratelim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_ratelim.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent_ratelim.c -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_ratelim.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/bufferevent_ratelim.c -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_ratelim.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_sock.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_sock.c.o: ../bufferevent_sock.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_sock.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_sock.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent_sock.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_sock.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_sock.c.o   -c /root/CLionProjects/libevent_study/bufferevent_sock.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_sock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_sock.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent_sock.c > CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_sock.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/bufferevent_sock.c > CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_sock.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_sock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_sock.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/bufferevent_sock.c -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_sock.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/bufferevent_sock.c -o CMakeFiles/libevent_2_1_8_stable.dir/bufferevent_sock.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/devpoll.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/devpoll.c.o: ../devpoll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/devpoll.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/devpoll.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/devpoll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/devpoll.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/devpoll.c.o   -c /root/CLionProjects/libevent_study/devpoll.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/devpoll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/devpoll.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/devpoll.c > CMakeFiles/libevent_2_1_8_stable.dir/devpoll.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/devpoll.c > CMakeFiles/libevent_2_1_8_stable.dir/devpoll.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/devpoll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/devpoll.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/devpoll.c -o CMakeFiles/libevent_2_1_8_stable.dir/devpoll.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/devpoll.c -o CMakeFiles/libevent_2_1_8_stable.dir/devpoll.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/epoll.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/epoll.c.o: ../epoll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/epoll.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/epoll.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/epoll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/epoll.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/epoll.c.o   -c /root/CLionProjects/libevent_study/epoll.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/epoll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/epoll.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/epoll.c > CMakeFiles/libevent_2_1_8_stable.dir/epoll.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/epoll.c > CMakeFiles/libevent_2_1_8_stable.dir/epoll.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/epoll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/epoll.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/epoll.c -o CMakeFiles/libevent_2_1_8_stable.dir/epoll.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/epoll.c -o CMakeFiles/libevent_2_1_8_stable.dir/epoll.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/epoll_sub.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/epoll_sub.c.o: ../epoll_sub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/epoll_sub.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/epoll_sub.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/epoll_sub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/epoll_sub.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/epoll_sub.c.o   -c /root/CLionProjects/libevent_study/epoll_sub.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/epoll_sub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/epoll_sub.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/epoll_sub.c > CMakeFiles/libevent_2_1_8_stable.dir/epoll_sub.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/epoll_sub.c > CMakeFiles/libevent_2_1_8_stable.dir/epoll_sub.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/epoll_sub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/epoll_sub.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/epoll_sub.c -o CMakeFiles/libevent_2_1_8_stable.dir/epoll_sub.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/epoll_sub.c -o CMakeFiles/libevent_2_1_8_stable.dir/epoll_sub.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/evdns.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/evdns.c.o: ../evdns.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/evdns.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/evdns.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evdns.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/evdns.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/evdns.c.o   -c /root/CLionProjects/libevent_study/evdns.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/evdns.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/evdns.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evdns.c > CMakeFiles/libevent_2_1_8_stable.dir/evdns.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/evdns.c > CMakeFiles/libevent_2_1_8_stable.dir/evdns.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/evdns.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/evdns.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evdns.c -o CMakeFiles/libevent_2_1_8_stable.dir/evdns.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/evdns.c -o CMakeFiles/libevent_2_1_8_stable.dir/evdns.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/event.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/event.c.o: ../event.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/event.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/event.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/event.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/event.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/event.c.o   -c /root/CLionProjects/libevent_study/event.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/event.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/event.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/event.c > CMakeFiles/libevent_2_1_8_stable.dir/event.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/event.c > CMakeFiles/libevent_2_1_8_stable.dir/event.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/event.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/event.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/event.c -o CMakeFiles/libevent_2_1_8_stable.dir/event.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/event.c -o CMakeFiles/libevent_2_1_8_stable.dir/event.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/event_iocp.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/event_iocp.c.o: ../event_iocp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/event_iocp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/event_iocp.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/event_iocp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/event_iocp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/event_iocp.c.o   -c /root/CLionProjects/libevent_study/event_iocp.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/event_iocp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/event_iocp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/event_iocp.c > CMakeFiles/libevent_2_1_8_stable.dir/event_iocp.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/event_iocp.c > CMakeFiles/libevent_2_1_8_stable.dir/event_iocp.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/event_iocp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/event_iocp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/event_iocp.c -o CMakeFiles/libevent_2_1_8_stable.dir/event_iocp.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/event_iocp.c -o CMakeFiles/libevent_2_1_8_stable.dir/event_iocp.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/event_tagging.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/event_tagging.c.o: ../event_tagging.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/event_tagging.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/event_tagging.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/event_tagging.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/event_tagging.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/event_tagging.c.o   -c /root/CLionProjects/libevent_study/event_tagging.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/event_tagging.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/event_tagging.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/event_tagging.c > CMakeFiles/libevent_2_1_8_stable.dir/event_tagging.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/event_tagging.c > CMakeFiles/libevent_2_1_8_stable.dir/event_tagging.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/event_tagging.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/event_tagging.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/event_tagging.c -o CMakeFiles/libevent_2_1_8_stable.dir/event_tagging.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/event_tagging.c -o CMakeFiles/libevent_2_1_8_stable.dir/event_tagging.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/evmap.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/evmap.c.o: ../evmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/evmap.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/evmap.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/evmap.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/evmap.c.o   -c /root/CLionProjects/libevent_study/evmap.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/evmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/evmap.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evmap.c > CMakeFiles/libevent_2_1_8_stable.dir/evmap.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/evmap.c > CMakeFiles/libevent_2_1_8_stable.dir/evmap.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/evmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/evmap.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evmap.c -o CMakeFiles/libevent_2_1_8_stable.dir/evmap.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/evmap.c -o CMakeFiles/libevent_2_1_8_stable.dir/evmap.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/evport.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/evport.c.o: ../evport.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/evport.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/evport.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evport.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/evport.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/evport.c.o   -c /root/CLionProjects/libevent_study/evport.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/evport.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/evport.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evport.c > CMakeFiles/libevent_2_1_8_stable.dir/evport.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/evport.c > CMakeFiles/libevent_2_1_8_stable.dir/evport.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/evport.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/evport.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evport.c -o CMakeFiles/libevent_2_1_8_stable.dir/evport.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/evport.c -o CMakeFiles/libevent_2_1_8_stable.dir/evport.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/evrpc.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/evrpc.c.o: ../evrpc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/evrpc.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/evrpc.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evrpc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/evrpc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/evrpc.c.o   -c /root/CLionProjects/libevent_study/evrpc.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/evrpc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/evrpc.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evrpc.c > CMakeFiles/libevent_2_1_8_stable.dir/evrpc.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/evrpc.c > CMakeFiles/libevent_2_1_8_stable.dir/evrpc.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/evrpc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/evrpc.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evrpc.c -o CMakeFiles/libevent_2_1_8_stable.dir/evrpc.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/evrpc.c -o CMakeFiles/libevent_2_1_8_stable.dir/evrpc.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/evthread.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/evthread.c.o: ../evthread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/evthread.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/evthread.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evthread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/evthread.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/evthread.c.o   -c /root/CLionProjects/libevent_study/evthread.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/evthread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/evthread.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evthread.c > CMakeFiles/libevent_2_1_8_stable.dir/evthread.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/evthread.c > CMakeFiles/libevent_2_1_8_stable.dir/evthread.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/evthread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/evthread.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evthread.c -o CMakeFiles/libevent_2_1_8_stable.dir/evthread.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/evthread.c -o CMakeFiles/libevent_2_1_8_stable.dir/evthread.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/evthread_pthread.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/evthread_pthread.c.o: ../evthread_pthread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/evthread_pthread.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/evthread_pthread.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evthread_pthread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/evthread_pthread.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/evthread_pthread.c.o   -c /root/CLionProjects/libevent_study/evthread_pthread.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/evthread_pthread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/evthread_pthread.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evthread_pthread.c > CMakeFiles/libevent_2_1_8_stable.dir/evthread_pthread.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/evthread_pthread.c > CMakeFiles/libevent_2_1_8_stable.dir/evthread_pthread.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/evthread_pthread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/evthread_pthread.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evthread_pthread.c -o CMakeFiles/libevent_2_1_8_stable.dir/evthread_pthread.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/evthread_pthread.c -o CMakeFiles/libevent_2_1_8_stable.dir/evthread_pthread.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/evthread_win32.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/evthread_win32.c.o: ../evthread_win32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/evthread_win32.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/evthread_win32.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evthread_win32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/evthread_win32.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/evthread_win32.c.o   -c /root/CLionProjects/libevent_study/evthread_win32.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/evthread_win32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/evthread_win32.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evthread_win32.c > CMakeFiles/libevent_2_1_8_stable.dir/evthread_win32.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/evthread_win32.c > CMakeFiles/libevent_2_1_8_stable.dir/evthread_win32.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/evthread_win32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/evthread_win32.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evthread_win32.c -o CMakeFiles/libevent_2_1_8_stable.dir/evthread_win32.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/evthread_win32.c -o CMakeFiles/libevent_2_1_8_stable.dir/evthread_win32.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/evutil.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/evutil.c.o: ../evutil.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/evutil.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/evutil.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/evutil.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/evutil.c.o   -c /root/CLionProjects/libevent_study/evutil.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/evutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/evutil.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evutil.c > CMakeFiles/libevent_2_1_8_stable.dir/evutil.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/evutil.c > CMakeFiles/libevent_2_1_8_stable.dir/evutil.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/evutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/evutil.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evutil.c -o CMakeFiles/libevent_2_1_8_stable.dir/evutil.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/evutil.c -o CMakeFiles/libevent_2_1_8_stable.dir/evutil.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/evutil_rand.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/evutil_rand.c.o: ../evutil_rand.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/evutil_rand.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/evutil_rand.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evutil_rand.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/evutil_rand.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/evutil_rand.c.o   -c /root/CLionProjects/libevent_study/evutil_rand.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/evutil_rand.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/evutil_rand.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evutil_rand.c > CMakeFiles/libevent_2_1_8_stable.dir/evutil_rand.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/evutil_rand.c > CMakeFiles/libevent_2_1_8_stable.dir/evutil_rand.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/evutil_rand.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/evutil_rand.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evutil_rand.c -o CMakeFiles/libevent_2_1_8_stable.dir/evutil_rand.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/evutil_rand.c -o CMakeFiles/libevent_2_1_8_stable.dir/evutil_rand.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/evutil_time.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/evutil_time.c.o: ../evutil_time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/evutil_time.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/evutil_time.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evutil_time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/evutil_time.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/evutil_time.c.o   -c /root/CLionProjects/libevent_study/evutil_time.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/evutil_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/evutil_time.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evutil_time.c > CMakeFiles/libevent_2_1_8_stable.dir/evutil_time.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/evutil_time.c > CMakeFiles/libevent_2_1_8_stable.dir/evutil_time.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/evutil_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/evutil_time.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/evutil_time.c -o CMakeFiles/libevent_2_1_8_stable.dir/evutil_time.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/evutil_time.c -o CMakeFiles/libevent_2_1_8_stable.dir/evutil_time.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/http.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/http.c.o: ../http.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/http.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/http.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/http.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/http.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/http.c.o   -c /root/CLionProjects/libevent_study/http.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/http.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/http.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/http.c > CMakeFiles/libevent_2_1_8_stable.dir/http.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/http.c > CMakeFiles/libevent_2_1_8_stable.dir/http.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/http.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/http.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/http.c -o CMakeFiles/libevent_2_1_8_stable.dir/http.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/http.c -o CMakeFiles/libevent_2_1_8_stable.dir/http.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/kqueue.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/kqueue.c.o: ../kqueue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/kqueue.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/kqueue.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/kqueue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/kqueue.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/kqueue.c.o   -c /root/CLionProjects/libevent_study/kqueue.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/kqueue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/kqueue.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/kqueue.c > CMakeFiles/libevent_2_1_8_stable.dir/kqueue.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/kqueue.c > CMakeFiles/libevent_2_1_8_stable.dir/kqueue.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/kqueue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/kqueue.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/kqueue.c -o CMakeFiles/libevent_2_1_8_stable.dir/kqueue.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/kqueue.c -o CMakeFiles/libevent_2_1_8_stable.dir/kqueue.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/listener.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/listener.c.o: ../listener.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/listener.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/listener.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/listener.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/listener.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/listener.c.o   -c /root/CLionProjects/libevent_study/listener.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/listener.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/listener.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/listener.c > CMakeFiles/libevent_2_1_8_stable.dir/listener.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/listener.c > CMakeFiles/libevent_2_1_8_stable.dir/listener.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/listener.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/listener.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/listener.c -o CMakeFiles/libevent_2_1_8_stable.dir/listener.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/listener.c -o CMakeFiles/libevent_2_1_8_stable.dir/listener.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/log.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/log.c.o: ../log.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/log.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/log.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/log.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/log.c.o   -c /root/CLionProjects/libevent_study/log.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/log.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/log.c > CMakeFiles/libevent_2_1_8_stable.dir/log.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/log.c > CMakeFiles/libevent_2_1_8_stable.dir/log.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/log.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/log.c -o CMakeFiles/libevent_2_1_8_stable.dir/log.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/log.c -o CMakeFiles/libevent_2_1_8_stable.dir/log.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/poll.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/poll.c.o: ../poll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/poll.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/poll.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/poll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/poll.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/poll.c.o   -c /root/CLionProjects/libevent_study/poll.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/poll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/poll.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/poll.c > CMakeFiles/libevent_2_1_8_stable.dir/poll.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/poll.c > CMakeFiles/libevent_2_1_8_stable.dir/poll.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/poll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/poll.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/poll.c -o CMakeFiles/libevent_2_1_8_stable.dir/poll.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/poll.c -o CMakeFiles/libevent_2_1_8_stable.dir/poll.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/select.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/select.c.o: ../select.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/select.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/select.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/select.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/select.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/select.c.o   -c /root/CLionProjects/libevent_study/select.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/select.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/select.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/select.c > CMakeFiles/libevent_2_1_8_stable.dir/select.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/select.c > CMakeFiles/libevent_2_1_8_stable.dir/select.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/select.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/select.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/select.c -o CMakeFiles/libevent_2_1_8_stable.dir/select.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/select.c -o CMakeFiles/libevent_2_1_8_stable.dir/select.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/signal.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/signal.c.o: ../signal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/signal.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/signal.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/signal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/signal.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/signal.c.o   -c /root/CLionProjects/libevent_study/signal.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/signal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/signal.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/signal.c > CMakeFiles/libevent_2_1_8_stable.dir/signal.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/signal.c > CMakeFiles/libevent_2_1_8_stable.dir/signal.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/signal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/signal.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/signal.c -o CMakeFiles/libevent_2_1_8_stable.dir/signal.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/signal.c -o CMakeFiles/libevent_2_1_8_stable.dir/signal.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/strlcpy.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/strlcpy.c.o: ../strlcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/strlcpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/strlcpy.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/strlcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/strlcpy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/strlcpy.c.o   -c /root/CLionProjects/libevent_study/strlcpy.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/strlcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/strlcpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/strlcpy.c > CMakeFiles/libevent_2_1_8_stable.dir/strlcpy.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/strlcpy.c > CMakeFiles/libevent_2_1_8_stable.dir/strlcpy.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/strlcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/strlcpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/strlcpy.c -o CMakeFiles/libevent_2_1_8_stable.dir/strlcpy.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/strlcpy.c -o CMakeFiles/libevent_2_1_8_stable.dir/strlcpy.c.s
 
 CMakeFiles/libevent_2_1_8_stable.dir/win32select.c.o: CMakeFiles/libevent_2_1_8_stable.dir/flags.make
 CMakeFiles/libevent_2_1_8_stable.dir/win32select.c.o: ../win32select.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/win32select.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/win32select.c.o   -c /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/win32select.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/libevent_2_1_8_stable.dir/win32select.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libevent_2_1_8_stable.dir/win32select.c.o   -c /root/CLionProjects/libevent_study/win32select.c
 
 CMakeFiles/libevent_2_1_8_stable.dir/win32select.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libevent_2_1_8_stable.dir/win32select.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/win32select.c > CMakeFiles/libevent_2_1_8_stable.dir/win32select.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/CLionProjects/libevent_study/win32select.c > CMakeFiles/libevent_2_1_8_stable.dir/win32select.c.i
 
 CMakeFiles/libevent_2_1_8_stable.dir/win32select.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libevent_2_1_8_stable.dir/win32select.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/win32select.c -o CMakeFiles/libevent_2_1_8_stable.dir/win32select.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/CLionProjects/libevent_study/win32select.c -o CMakeFiles/libevent_2_1_8_stable.dir/win32select.c.s
 
 # Object files for target libevent_2_1_8_stable
 libevent_2_1_8_stable_OBJECTS = \
@@ -1235,7 +1235,7 @@ libevent_2_1_8_stable: CMakeFiles/libevent_2_1_8_stable.dir/strlcpy.c.o
 libevent_2_1_8_stable: CMakeFiles/libevent_2_1_8_stable.dir/win32select.c.o
 libevent_2_1_8_stable: CMakeFiles/libevent_2_1_8_stable.dir/build.make
 libevent_2_1_8_stable: CMakeFiles/libevent_2_1_8_stable.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Linking C executable libevent_2_1_8_stable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Linking C executable libevent_2_1_8_stable"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libevent_2_1_8_stable.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1248,6 +1248,6 @@ CMakeFiles/libevent_2_1_8_stable.dir/clean:
 .PHONY : CMakeFiles/libevent_2_1_8_stable.dir/clean
 
 CMakeFiles/libevent_2_1_8_stable.dir/depend:
-	cd /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug /Users/wangpeiyuan/CLionProjects/libevent-2.1.8-stable/cmake-build-debug/CMakeFiles/libevent_2_1_8_stable.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/CLionProjects/libevent_study/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/CLionProjects/libevent_study /root/CLionProjects/libevent_study /root/CLionProjects/libevent_study/cmake-build-debug /root/CLionProjects/libevent_study/cmake-build-debug /root/CLionProjects/libevent_study/cmake-build-debug/CMakeFiles/libevent_2_1_8_stable.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/libevent_2_1_8_stable.dir/depend
 
